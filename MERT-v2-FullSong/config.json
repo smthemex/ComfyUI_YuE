@@ -1,0 +1,41 @@
+{
+  "architectures": [
+    "MERT2Model"
+  ],
+  "auto_map": {
+    "AutoConfig": "configuration_mert2.MERT2Config",
+    "AutoModel": "modeling_mert2.MERT2Model"
+  },
+  "context_seconds": 360.0,
+  "conv_depthwise_kernel_size": 31,
+  "frame_rate": 25.0,
+  "hidden_size": 1024,
+  "hop_length": 240,
+  "initializer_range": 0.02,
+  "inputs_to_logits_ratio": 960,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-05,
+  "minimum_input_samples": 1025,
+  "model_type": "mert2",
+  "n_fft": 2048,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_mel_bins": 128,
+  "rotary_embedding_base": 10000,
+  "sampling_rate": 24000,
+  "subsampling_channels": [
+    128,
+    512,
+    1024
+  ],
+  "subsampling_depths": [
+    3,
+    4,
+    5
+  ],
+  "subsampling_layer_norm_eps": 1e-06,
+  "torch_dtype": "float32",
+  "transformers_version": "4.53.2",
+  "variant": "fs",
+  "win_length": 2048
+}

@@ -1,0 +1,485 @@
+{
+  "id": "7c9d78d2-6b53-43f8-9173-4b6748d1af04",
+  "revision": 0,
+  "last_node_id": 22,
+  "last_link_id": 24,
+  "nodes": [
+    {
+      "id": 4,
+      "type": "SaveAudioAdvanced",
+      "pos": [
+        1696.2669811564128,
+        5221.529241119489
+      ],
+      "size": [
+        414.5625,
+        165.984375
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "audio/yue2",
+        "flac"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "audio/yue2",
+        "format": "flac"
+      }
+    },
+    {
+      "id": 9,
+      "type": "Note",
+      "pos": [
+        2211.75764837062,
+        4732.53074774176
+      ],
+      "size": [
+        391.3125,
+        1272.1875
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "[Intro]\n\n[Verse1]\n挡风玻璃 凝结 冰霜视线\n钢铁血管 泵送 液压熔流\n方向盘 是 锻打的 钢铁誓约\n涡轮增压 撕裂 寒夜 的 氧\n导航删除 坐标 植入 芯片\n柏油路 震颤 传送带 的 脉动\n后视镜里 昨日 碾成 铁屑\n这 电流脉冲 即 我的 通行 令\n\n[Pre-Chorus]\n音量阀 旋至 红色 警戒区\n底鼓 如 锻锤 砸击 脊髓 Yeah\n肾上腺素 是 劣质 硝化燃料\n爆\n\n[Chorus]\nHIER KOMMT DIE KETTE Brich sie\nHIER KOMMT DER STAHL Fress ihn\n油门 焊死 地平线 是 生锈铁板\n让 电极火花 焚烧 这 牢笼 Woo\nMASCHINE BRENNT Lodernd\nMASCHINE STIRBT NICHT Ewig\n规则 成 铁渣 界限 全崩塌\n这 工业圣歌 是 终极 点火栓\n一路 碾压 向 废土 行军 Yeah\nHIER KOMMT DIE KETTE Brich sie\nHIER KOMMT DER STAHL Fress ihn\n油门 焊死 地平线 是 生锈铁板\n让 电极火花 焚烧 这 牢笼 Woo\nMASCHINE BRENNT Lodernd\nMASCHINE STIRBT NICHT Ewig\n规则 成 铁渣 界限 全崩塌\n这 工业圣歌 是 终极 点火栓\n一路 碾压 向 废土 行军 Yeah\n\n[Interlude]\n\n[Verse2]\n钢铁战友 轰鸣 是 唯一 祷文\n转速指针 在 红区 跳着 死亡舞\n风 如 砂轮 打磨 脸庞 至 白骨\n要的 就是 这 齿轮 卡死的 快感\n霓虹 是 熔炉 泄露的 毒光\n像 驾驭 一台 暴动的 锻压机\n排气管 喷吐 硫磺 的 赞美诗\n每一声 回火 都 震荡 灵魂 的 铸铁砧\n\n[Pre-Chorus]\n音波 如 冲压机 重塑 肋骨\n汗水 是 冷却液 腐蚀 沥青\n转速指针 与 熔炉 一同 过载\n再 爆\n\n[Chorus]\nHIER KOMMT DIE KETTE Brich sie\nHIER KOMMT DER STAHL Fress ihn\n油门 焊死 地平线 是 润滑脂\n让 电弧 鞭笞 这 苍穹 Woo\nMASCHINE BRENNT Lodernd\nMASCHINE STIRBT NICHT Ewig\n规则 成 蒸汽 界限 是 尘埃\n这 工业圣歌 是 淬火的 撞针\n一路 碾压 向 虚无 进军 Yeah\nHIER KOMMT DIE KETTE Brich sie\nHIER KOMMT DER STAHL Fress ihn\n油门 焊死 地平线 是 润滑脂\n让 电弧 鞭笞 这 苍穹 Woo\nMASCHINE BRENNT Lodernd\nMASCHINE STIRBT NICHT Ewig\n规则 成 蒸汽 界限 是 尘埃\n这 工业圣歌 是 淬火的 撞针\n一路 碾压 向 虚无 进军 Yeah\n\n[Bridge]\nUNTERBRECHUNG\nDIESER KANAL GEHÖRT UNSEREM STAHL\nSCHLACKE EINSPEISEN DAMPFDRUCK STEIGT\nWIR SIND DIE MASCHINE WIR SIND DIE EISENBAHN\nVOLLE FAHRT VORWÄRTS ZERSTÖRUNG IST PROZESS\n熔炉警报 参数异常\n\n[Chorus]\nHIER KOMMT DIE KETTE ZERSTÖREN\nHIER KOMMT DER STAHL VERBRENNEN\n油门 焊死 终点 是 熔渣之海\n让 铁锈尘埃 覆盖 这 纪元 Woo\nMASCHINE BRENNT HELL\nMASCHINE STIRBT NICHT METALLGOTT\n这 工业圣歌 是 末日的 黑匣\n一路 碾压 直至 时间 崩解 Yeah\nHIER KOMMT DIE KETTE ZERSTÖREN\nHIER KOMMT DER STAHL VERBRENNEN\n油门 焊死 终点 是 熔渣之海\n让 铁锈尘埃 覆盖 这 纪元 Woo\nMASCHINE BRENNT HELL\nMASCHINE STIRBT NICHT METALLGOTT\n这 工业圣歌 是 末日的 黑匣\n一路 碾压 直至 时间 崩解 Yeah\n\n[Outro]"
+      ],
+      "widgets_values_named": {
+        "text": "[Intro]\n\n[Verse1]\n挡风玻璃 凝结 冰霜视线\n钢铁血管 泵送 液压熔流\n方向盘 是 锻打的 钢铁誓约\n涡轮增压 撕裂 寒夜 的 氧\n导航删除 坐标 植入 芯片\n柏油路 震颤 传送带 的 脉动\n后视镜里 昨日 碾成 铁屑\n这 电流脉冲 即 我的 通行 令\n\n[Pre-Chorus]\n音量阀 旋至 红色 警戒区\n底鼓 如 锻锤 砸击 脊髓 Yeah\n肾上腺素 是 劣质 硝化燃料\n爆\n\n[Chorus]\nHIER KOMMT DIE KETTE Brich sie\nHIER KOMMT DER STAHL Fress ihn\n油门 焊死 地平线 是 生锈铁板\n让 电极火花 焚烧 这 牢笼 Woo\nMASCHINE BRENNT Lodernd\nMASCHINE STIRBT NICHT Ewig\n规则 成 铁渣 界限 全崩塌\n这 工业圣歌 是 终极 点火栓\n一路 碾压 向 废土 行军 Yeah\nHIER KOMMT DIE KETTE Brich sie\nHIER KOMMT DER STAHL Fress ihn\n油门 焊死 地平线 是 生锈铁板\n让 电极火花 焚烧 这 牢笼 Woo\nMASCHINE BRENNT Lodernd\nMASCHINE STIRBT NICHT Ewig\n规则 成 铁渣 界限 全崩塌\n这 工业圣歌 是 终极 点火栓\n一路 碾压 向 废土 行军 Yeah\n\n[Interlude]\n\n[Verse2]\n钢铁战友 轰鸣 是 唯一 祷文\n转速指针 在 红区 跳着 死亡舞\n风 如 砂轮 打磨 脸庞 至 白骨\n要的 就是 这 齿轮 卡死的 快感\n霓虹 是 熔炉 泄露的 毒光\n像 驾驭 一台 暴动的 锻压机\n排气管 喷吐 硫磺 的 赞美诗\n每一声 回火 都 震荡 灵魂 的 铸铁砧\n\n[Pre-Chorus]\n音波 如 冲压机 重塑 肋骨\n汗水 是 冷却液 腐蚀 沥青\n转速指针 与 熔炉 一同 过载\n再 爆\n\n[Chorus]\nHIER KOMMT DIE KETTE Brich sie\nHIER KOMMT DER STAHL Fress ihn\n油门 焊死 地平线 是 润滑脂\n让 电弧 鞭笞 这 苍穹 Woo\nMASCHINE BRENNT Lodernd\nMASCHINE STIRBT NICHT Ewig\n规则 成 蒸汽 界限 是 尘埃\n这 工业圣歌 是 淬火的 撞针\n一路 碾压 向 虚无 进军 Yeah\nHIER KOMMT DIE KETTE Brich sie\nHIER KOMMT DER STAHL Fress ihn\n油门 焊死 地平线 是 润滑脂\n让 电弧 鞭笞 这 苍穹 Woo\nMASCHINE BRENNT Lodernd\nMASCHINE STIRBT NICHT Ewig\n规则 成 蒸汽 界限 是 尘埃\n这 工业圣歌 是 淬火的 撞针\n一路 碾压 向 虚无 进军 Yeah\n\n[Bridge]\nUNTERBRECHUNG\nDIESER KANAL GEHÖRT UNSEREM STAHL\nSCHLACKE EINSPEISEN DAMPFDRUCK STEIGT\nWIR SIND DIE MASCHINE WIR SIND DIE EISENBAHN\nVOLLE FAHRT VORWÄRTS ZERSTÖRUNG IST PROZESS\n熔炉警报 参数异常\n\n[Chorus]\nHIER KOMMT DIE KETTE ZERSTÖREN\nHIER KOMMT DER STAHL VERBRENNEN\n油门 焊死 终点 是 熔渣之海\n让 铁锈尘埃 覆盖 这 纪元 Woo\nMASCHINE BRENNT HELL\nMASCHINE STIRBT NICHT METALLGOTT\n这 工业圣歌 是 末日的 黑匣\n一路 碾压 直至 时间 崩解 Yeah\nHIER KOMMT DIE KETTE ZERSTÖREN\nHIER KOMMT DER STAHL VERBRENNEN\n油门 焊死 终点 是 熔渣之海\n让 铁锈尘埃 覆盖 这 纪元 Woo\nMASCHINE BRENNT HELL\nMASCHINE STIRBT NICHT METALLGOTT\n这 工业圣歌 是 末日的 黑匣\n一路 碾压 直至 时间 崩解 Yeah\n\n[Outro]"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 11,
+      "type": "Note",
+      "pos": [
+        1757.9660466423838,
+        4683.239887527698
+      ],
+      "size": [
+        406.0625,
+        106.5625
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "powerful belting, autotune, Electric guitar, symphony, bass, Electric Piano, excited, bold, Heavy Metal"
+      ],
+      "widgets_values_named": {
+        "text": "powerful belting, autotune, Electric guitar, symphony, bass, Electric Piano, excited, bold, Heavy Metal"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 12,
+      "type": "YUE_SM_Clip",
+      "pos": [
+        728.8559830396886,
+        4753.938340897657
+      ],
+      "size": [
+        308.6875,
+        114
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "YUE_SM_Clip"
+      },
+      "widgets_values": [
+        "sheetsage2.safetensors",
+        "mert2_model.safetensors"
+      ],
+      "widgets_values_named": {
+        "clip": "sheetsage2.safetensors",
+        "mert2": "mert2_model.safetensors"
+      }
+    },
+    {
+      "id": 13,
+      "type": "YUE_SM_Cond",
+      "pos": [
+        1103.2156851446443,
+        4788.3021930569785
+      ],
+      "size": [
+        225,
+        102
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 13
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 14
+        }
+      ],
+      "outputs": [
+        {
+          "name": "abc_file",
+          "type": "STRING",
+          "links": [
+            15
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "YUE_SM_Cond"
+      }
+    },
+    {
+      "id": 14,
+      "type": "LoadAudio",
+      "pos": [
+        731.6274159175886,
+        4930.8322269567225
+      ],
+      "size": [
+        270,
+        138
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 2,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            14
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadAudio"
+      },
+      "widgets_values": [
+        "002.WAV",
+        null,
+        null
+      ],
+      "widgets_values_named": {
+        "audio": "002.WAV",
+        "upload": null
+      }
+    },
+    {
+      "id": 15,
+      "type": "PreviewAny",
+      "pos": [
+        1387.4152739138706,
+        4792.112042935652
+      ],
+      "size": [
+        274.0625,
+        138
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 15
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 16,
+      "type": "Note",
+      "pos": [
+        1760.2972422274647,
+        4822.118468642673
+      ],
+      "size": [
+        409.9375,
+        275.75
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "##### 三种基本功能 ######\n\n1.只写风格和歌词，cot选 off关闭，abc files留空，最基本的歌曲生成\n\n2.cover 复刻能力，要先用 clip和cond 节点 复刻原歌曲的abc，然后填写你写的新对应的风格和歌词，选择melody格式。注意有abc文件时， 只能选melody 或者full（if use cover mode use melody only）\n\n3.改谱精修，你或者agent来修改一个已有的abc谱子，而谱子，可以是你推理后生成的，也可以是开启plan模式生成的，这个谱子你编辑后，再给模型生成，如果环境变量不变，就可以达到自由的自定义生成你想要的歌曲（专业级），当然如果你没有音乐天赋，直接让大模型的agent帮你去改最好，官方也提供了skill"
+      ],
+      "widgets_values_named": {
+        "text": "##### 三种基本功能 ######\n\n1.只写风格和歌词，cot选 off关闭，abc files留空，最基本的歌曲生成\n\n2.cover 复刻能力，要先用 clip和cond 节点 复刻原歌曲的abc，然后填写你写的新对应的风格和歌词，选择melody格式。注意有abc文件时， 只能选melody 或者full（if use cover mode use melody only）\n\n3.改谱精修，你或者agent来修改一个已有的abc谱子，而谱子，可以是你推理后生成的，也可以是开启plan模式生成的，这个谱子你编辑后，再给模型生成，如果环境变量不变，就可以达到自由的自定义生成你想要的歌曲（专业级），当然如果你没有音乐天赋，直接让大模型的agent帮你去改最好，官方也提供了skill"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 1,
+      "type": "YUE_SM_Model",
+      "pos": [
+        768.8408106201794,
+        5182.267051817941
+      ],
+      "size": [
+        328.3125,
+        110
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            22
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "YUE_SM_Model"
+      },
+      "widgets_values": [
+        "yue2_model.safetensors"
+      ],
+      "widgets_values_named": {
+        "diffusion_models": "yue2_model.safetensors"
+      }
+    },
+    {
+      "id": 3,
+      "type": "YUE_SM_Vae",
+      "pos": [
+        755.3975836890024,
+        5443.775479913051
+      ],
+      "size": [
+        270,
+        86
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "vae",
+          "type": "VAE",
+          "links": [
+            23
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "YUE_SM_Vae"
+      },
+      "widgets_values": [
+        "yue_vae.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae": "yue_vae.safetensors"
+      }
+    },
+    {
+      "id": 22,
+      "type": "YUE_SM_Sampler",
+      "pos": [
+        1184.2803775744214,
+        5196.501931925436
+      ],
+      "size": [
+        394.296875,
+        361.984375
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 22
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            24
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "YUE_SM_Sampler"
+      },
+      "widgets_values": [
+        "English, warm piano pop, expressive female voice, acoustic piano, rounded bass and light drums, lyrical memorable melody, unhurried phrasing, 88 BPM",
+        "[Verse]\nNeon fades along the lane\nFootsteps keep the time of rain\nFold the night and leave it here\nMorning has a sky to clear\n\n[Chorus]\nLet the day come into view\nEvery road begins with you\nHold a little room for light\nWe will sing beyond the night",
+        "full",
+        1452144020,
+        "randomize",
+        true,
+        "E:\\ComfyUI313\\ComfyUI\\output\\yue_sm_temp\\score-jazz.abc",
+        ""
+      ],
+      "widgets_values_named": {
+        "style": "English, warm piano pop, expressive female voice, acoustic piano, rounded bass and light drums, lyrical memorable melody, unhurried phrasing, 88 BPM",
+        "lyrics": "[Verse]\nNeon fades along the lane\nFootsteps keep the time of rain\nFold the night and leave it here\nMorning has a sky to clear\n\n[Chorus]\nLet the day come into view\nEvery road begins with you\nHold a little room for light\nWe will sing beyond the night",
+        "cot": "full",
+        "seed": 1452144020,
+        "control_after_generate": "randomize",
+        "only_plan": true,
+        "abc_file": "E:\\ComfyUI313\\ComfyUI\\output\\yue_sm_temp\\score-jazz.abc",
+        "path-button": ""
+      }
+    }
+  ],
+  "links": [
+    [
+      13,
+      12,
+      0,
+      13,
+      0,
+      "CLIP"
+    ],
+    [
+      14,
+      14,
+      0,
+      13,
+      1,
+      "AUDIO"
+    ],
+    [
+      15,
+      13,
+      0,
+      15,
+      0,
+      "STRING"
+    ],
+    [
+      22,
+      1,
+      0,
+      22,
+      0,
+      "MODEL"
+    ],
+    [
+      23,
+      3,
+      0,
+      22,
+      1,
+      "VAE"
+    ],
+    [
+      24,
+      22,
+      0,
+      4,
+      0,
+      "AUDIO"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "infer / 推理",
+      "bounding": [
+        722.6544477597142,
+        5103.8516245671,
+        1449.5114652695938,
+        502.3017131428023
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "get-abc 获取abc",
+      "bounding": [
+        718.8559830396886,
+        4683.938340897657,
+        948.4655408741819,
+        394.89388605906515
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6492965217391748,
+      "offset": [
+        -9.916996159523507,
+        -4402.273552215773
+      ]
+    },
+    "frontendVersion": "1.52.7"
+  },
+  "version": 0.4
+}

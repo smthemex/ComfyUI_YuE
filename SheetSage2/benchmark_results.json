@@ -1,0 +1,351 @@
+{
+  "scores": [
+    {
+      "task": "beat",
+      "dataset": "GTZAN",
+      "metric": "F1",
+      "score": 85.65,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "key"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "beat",
+      "dataset": "osu2017",
+      "metric": "F1",
+      "score": 92.29,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "key",
+          "chord_full"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "downbeat",
+      "dataset": "GTZAN",
+      "metric": "F1",
+      "score": 79.51,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "key"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "downbeat",
+      "dataset": "osu2017",
+      "metric": "F1",
+      "score": 91.97,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "key",
+          "chord_full"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "key",
+      "dataset": "GiantSteps",
+      "metric": "weighted_accuracy",
+      "score": 77.73,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "key"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "key",
+      "dataset": "GTZAN",
+      "metric": "weighted_accuracy",
+      "score": 75.77,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "key"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "chord",
+      "dataset": "osu2017",
+      "metric": "majmin",
+      "score": 90.08,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "key",
+          "chord_full"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "chord",
+      "dataset": "Chords1217",
+      "metric": "majmin",
+      "score": 83.81,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "chord_full"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "structure",
+      "dataset": "HarmonixSet",
+      "metric": "accuracy",
+      "score": 80.51,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "structure"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "structure",
+      "dataset": "HarmonixSet",
+      "metric": "F1@0.5s",
+      "score": 67.96,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "structure"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "structure",
+      "dataset": "HarmonixSet",
+      "metric": "F1@3s",
+      "score": 82.86,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "structure"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "melody",
+      "dataset": "RWC-Pop",
+      "metric": "vocal_pitch_class_F1",
+      "score": 82.51,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "structure",
+          "key",
+          "chord_full",
+          "melody_full"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    },
+    {
+      "task": "melody",
+      "dataset": "RWC-Pop",
+      "metric": "full_pitch_class_F1",
+      "score": 75.29,
+      "settings": {
+        "preset": "paper",
+        "sample_rate": 24000,
+        "window_seconds": 300,
+        "overlap_seconds": 100,
+        "lookahead_seconds": 0,
+        "max_length": 5120,
+        "decoding": "greedy",
+        "attention": "sdpa",
+        "weight_dtype": "float32",
+        "autocast_dtype": "bfloat16",
+        "batch_size": 1,
+        "prompts": [
+          "timestamp",
+          "downbeat_meter",
+          "structure",
+          "key",
+          "chord_full",
+          "melody_full"
+        ],
+        "device": "NVIDIA H800",
+        "cuda_version": "12.6"
+      }
+    }
+  ]
+}

@@ -6,11 +6,5 @@ numpy
 transformers
 sentencepiece
 tqdm
-tensorboard
-descript-audiotools>=0.7.2 
-descript-audio-codec
-scipy
-accelerate>=0.26.0
-bitsandbytes
-#exllamav2
-#mmpg
+mir_eval
+pretty_midi
