@@ -1,0 +1,9 @@
+{
+  "format": "safetensors",
+  "dtype": "float32",
+  "parameters": 632295808,
+  "state_tensors": 876,
+  "filename": "model.safetensors",
+  "sha256": "e6dd2ab187d6dd62b6521cd7d8f932e237acf0c5757745a7232082e28391350d",
+  "bytes": 2529812848
+}

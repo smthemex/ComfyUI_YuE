@@ -1,0 +1,38 @@
+{
+  "return_dict": true,
+  "output_hidden_states": false,
+  "torchscript": false,
+  "dtype": "bfloat16",
+  "tie_word_embeddings": false,
+  "is_encoder_decoder": false,
+  "is_decoder": false,
+  "add_cross_attention": false,
+  "architectures": [
+    "YuE2ForCausalLM"
+  ],
+  "bos_token_id": null,
+  "pad_token_id": null,
+  "eos_token_id": null,
+  "decoder_start_token_id": null,
+  "transformers_version": "4.57.6",
+  "auto_map": {
+    "AutoConfig": "modeling_yue2.YuE2Config",
+    "AutoModelForCausalLM": "modeling_yue2.YuE2ForCausalLM"
+  },
+  "model_type": "yue2",
+  "hidden_size": 2048,
+  "num_hidden_layers": 28,
+  "num_attention_heads": 16,
+  "num_key_value_heads": 8,
+  "head_dim": 128,
+  "intermediate_size": 6144,
+  "vocab_size": 184704,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000,
+  "max_position_embeddings": 24576,
+  "latent_type": "vae",
+  "latent_dim": 64,
+  "max_latent_frames": 24576,
+  "timestep_shift": 1.0,
+  "output_attentions": false
+}

@@ -1,9 +1,9 @@
 [project]
 name = "yue"
-description = " Yue is a groundbreaking series of open-source foundation models designed for music generation, specifically for transforming lyrics into full songs (lyrics2song). you can use it in comfyUI"
-version = "1.0.0"
+description = " Yue 2 is a groundbreaking series of open-source foundation models designed for music generation, specifically for transforming lyrics into full songs (lyrics2song). you can use it in comfyUI"
+version = "2.0.0"
 license = {file = "LICENSE"}
-dependencies = ["torch", "omegaconf", "torchaudio", "einops", "numpy", "transformers", "sentencepiece", "tqdm", "tensorboard", "descript-audiotools>=0.7.2", "descript-audio-codec", "scipy", "accelerate>=0.26.0", "bitsandbytes", "#exllamav2", "#mmpg"]
+dependencies = ["torch", "omegaconf", "torchaudio", "einops", "numpy", "transformers", "sentencepiece", "tqdm", "mir_eval", "pretty_midi"]
 
 [project.urls]
 Repository = "https://github.com/smthemex/ComfyUI_YuE"

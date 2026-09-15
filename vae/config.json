@@ -1,0 +1,78 @@
+{
+  "return_dict": true,
+  "output_hidden_states": false,
+  "torchscript": false,
+  "dtype": "float32",
+  "tie_word_embeddings": true,
+  "is_encoder_decoder": false,
+  "is_decoder": false,
+  "add_cross_attention": false,
+  "architectures": [
+    "YuE2VAE"
+  ],
+  "bos_token_id": null,
+  "pad_token_id": null,
+  "eos_token_id": null,
+  "decoder_start_token_id": null,
+  "transformers_version": "4.57.6",
+  "auto_map": {
+    "AutoConfig": "modeling_vae.YuE2VAEConfig",
+    "AutoModel": "modeling_vae.YuE2VAE"
+  },
+  "model_type": "yue2_vae",
+  "encoder_config": {
+    "c_mults": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "channels": 64,
+    "in_channels": 2,
+    "latent_dim": 128,
+    "strides": [
+      2,
+      2,
+      4,
+      4,
+      5,
+      6
+    ],
+    "use_snake": true
+  },
+  "decoder_config": {
+    "c_mults": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "channels": 64,
+    "final_tanh": false,
+    "latent_dim": 64,
+    "out_channels": 2,
+    "snake_type": "vanilla",
+    "strides": [
+      2,
+      2,
+      4,
+      4,
+      5,
+      6
+    ],
+    "use_filter": false,
+    "use_snake": true
+  },
+  "sample_rate": 48000,
+  "latent_dim": 64,
+  "downsampling_ratio": 1920,
+  "audio_channels": 2,
+  "release_variant": "standard",
+  "decode_core_frames": 1024,
+  "decode_halo_frames": 16,
+  "output_attentions": false
+}

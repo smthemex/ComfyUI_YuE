@@ -1,0 +1,11 @@
+{
+  "processor_class": "SheetSage2Processor",
+  "sampling_rate": 24000,
+  "window_seconds": 300.0,
+  "time_hz": 100,
+  "schema_version": "v1",
+  "tokenizer_fingerprint": "5ba3325af0344c7f",
+  "auto_map": {
+    "AutoProcessor": "processing_sheetsage2.SheetSage2Processor"
+  }
+}

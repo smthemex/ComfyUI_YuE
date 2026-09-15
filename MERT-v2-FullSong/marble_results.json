@@ -1,0 +1,327 @@
+{
+  "schema_version": 2,
+  "benchmark": "MARBLE",
+  "metric_scale": 1,
+  "display_scale": 100,
+  "models": {
+    "MERT-v2-30s": {
+      "repo_id": "a43992899/MERT-v2-30s",
+      "tasks": [
+        {
+          "dataset": "GTZAN",
+          "task": "Genre classification",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 23,
+            "hidden_state_index": 22
+          },
+          "learning_rate": 0.005,
+          "probe_seed": 1234,
+          "metrics": {
+            "file_acc": 0.9172413945198059
+          }
+        },
+        {
+          "dataset": "GTZAN",
+          "task": "Beat tracking",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 21,
+            "hidden_state_index": 20
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "beat_f1": 0.9058816432952881
+          }
+        },
+        {
+          "dataset": "GiantSteps",
+          "task": "Key detection",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 4,
+            "hidden_state_index": 3
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "weighted_score": 0.6697019867549668
+          }
+        },
+        {
+          "dataset": "EmoMusic",
+          "task": "Emotion recognition",
+          "supplemental": false,
+          "representation": {
+            "mode": "learned_all_layer_mlp",
+            "num_layers": 24
+          },
+          "learning_rate": 5e-05,
+          "probe_seed": 1234,
+          "metrics": {
+            "valence_r2": 0.6322920322418213,
+            "arousal_r2": 0.8000704646110535
+          }
+        },
+        {
+          "dataset": "Chords1217",
+          "task": "Chord recognition",
+          "supplemental": true,
+          "representation": {
+            "mode": "learned_all_layer_mlp",
+            "num_layers": 24
+          },
+          "learning_rate": 0.0001,
+          "probe_seed": 1234,
+          "metrics": {
+            "acc": 0.7847631573677063
+          }
+        },
+        {
+          "dataset": "MagnaTagATune",
+          "task": "Tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 22,
+            "hidden_state_index": 21
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.9190762042999268,
+            "average_precision": 0.4129374325275421
+          }
+        },
+        {
+          "dataset": "MTG-Jamendo",
+          "task": "Genre tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 19,
+            "hidden_state_index": 18
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.8801141381263733,
+            "average_precision": 0.21221663057804108
+          }
+        },
+        {
+          "dataset": "MTG-Jamendo",
+          "task": "Instrument tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 14,
+            "hidden_state_index": 13
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.8027445673942566,
+            "average_precision": 0.2288619726896286
+          }
+        },
+        {
+          "dataset": "MTG-Jamendo",
+          "task": "Mood/theme tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 16,
+            "hidden_state_index": 15
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.7944093942642212,
+            "average_precision": 0.16676680743694305
+          }
+        },
+        {
+          "dataset": "MTG-Jamendo",
+          "task": "Top-50 tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 13,
+            "hidden_state_index": 12
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.8417603969573975,
+            "average_precision": 0.3217017948627472
+          }
+        }
+      ]
+    },
+    "MERT-v2-FullSong": {
+      "repo_id": "a43992899/MERT-v2-FullSong",
+      "tasks": [
+        {
+          "dataset": "GTZAN",
+          "task": "Genre classification",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 24,
+            "hidden_state_index": 23
+          },
+          "learning_rate": 0.0005,
+          "probe_seed": 1234,
+          "metrics": {
+            "file_acc": 0.9068965315818787
+          }
+        },
+        {
+          "dataset": "GTZAN",
+          "task": "Beat tracking",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 23,
+            "hidden_state_index": 22
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "beat_f1": 0.9057297706604004
+          }
+        },
+        {
+          "dataset": "GiantSteps",
+          "task": "Key detection",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 23,
+            "hidden_state_index": 22
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "weighted_score": 0.6705298013245033
+          }
+        },
+        {
+          "dataset": "EmoMusic",
+          "task": "Emotion recognition",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 24,
+            "hidden_state_index": 23
+          },
+          "learning_rate": 0.0005,
+          "probe_seed": 1234,
+          "metrics": {
+            "valence_r2": 0.6351668834686279,
+            "arousal_r2": 0.7814431190490723
+          }
+        },
+        {
+          "dataset": "Chords1217",
+          "task": "Chord recognition",
+          "supplemental": true,
+          "representation": {
+            "mode": "learned_all_layer_mlp",
+            "num_layers": 24
+          },
+          "learning_rate": 0.0005,
+          "probe_seed": 1234,
+          "metrics": {
+            "acc": 0.7779459357261658
+          }
+        },
+        {
+          "dataset": "MagnaTagATune",
+          "task": "Tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 23,
+            "hidden_state_index": 22
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.9173608422279358,
+            "average_precision": 0.4120141565799713
+          }
+        },
+        {
+          "dataset": "MTG-Jamendo",
+          "task": "Genre tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 16,
+            "hidden_state_index": 15
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.8797574043273926,
+            "average_precision": 0.20656391978263855
+          }
+        },
+        {
+          "dataset": "MTG-Jamendo",
+          "task": "Instrument tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 12,
+            "hidden_state_index": 11
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.8026924133300781,
+            "average_precision": 0.2351299524307251
+          }
+        },
+        {
+          "dataset": "MTG-Jamendo",
+          "task": "Mood/theme tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 13,
+            "hidden_state_index": 12
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.7874246835708618,
+            "average_precision": 0.15743640065193176
+          }
+        },
+        {
+          "dataset": "MTG-Jamendo",
+          "task": "Top-50 tagging",
+          "supplemental": false,
+          "representation": {
+            "mode": "fixed_layer",
+            "layer": 22,
+            "hidden_state_index": 21
+          },
+          "learning_rate": 0.001,
+          "probe_seed": 1234,
+          "metrics": {
+            "auroc": 0.8413298726081848,
+            "average_precision": 0.3162302076816559
+          }
+        }
+      ]
+    }
+  }
+}

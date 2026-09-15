@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "files": {
+    "model.safetensors": {
+      "bytes": 7261441640,
+      "sha256": "1d55c42c1a9875c34f5d736e15078449992b044e807ce2a138e6cf289a1e59e9"
+    }
+  }
+}
